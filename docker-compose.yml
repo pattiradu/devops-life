@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  24rp15513:
+    build: .
+    ports:
+      - "8086:80"
+    volumes:
+      - /var/www/html
